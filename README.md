@@ -1,63 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meus Links Mercado Livre</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      text-align: center;
-      padding: 40px;
-    }
-    h1 {
-      color: #333;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin: 15px 0;
-    }
-    a {
-      text-decoration: none;
-      color: #0077ff;
-      font-size: 18px;
-      transition: 0.3s;
-    }
-    a:hover {
-      color: #0055aa;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine de Imóveis | Aluguel e Venda</title>
+    <meta name="description" content="Confira nossa seleção exclusiva de imóveis disponíveis para aluguel e venda. Entre em contato para agendar uma visita!">
+
+    <!-- Substitua pelo seu código de verificação do Google Search Console quando tiver -->
+    <meta name="google-site-verification" content="COLE_SEU_CODIGO_DO_GOOGLE_AQUI" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            padding-bottom: 40px;
+        }
+
+        header {
+            background-color: #1a365d;
+            color: #ffffff;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 15px;
+            color: #cbd5e0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 25px auto;
+            padding: 0 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+            border-top: 4px solid #2b6cb0;
+        }
+
+        .card-header {
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 18px;
+            color: #1a365d;
+            margin-bottom: 6px;
+        }
+
+        .card-subtitle {
+            font-size: 13px;
+            color: #718096;
+        }
+
+        .btn-view {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #2b6cb0;
+            color: #ffffff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: background 0.2s;
+        }
+
+        .btn-view:hover {
+            background-color: #1a365d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #718096;
+        }
+    </style>
 </head>
 <body>
-  <h1>Meus Links Mercado Livre</h1>
-  <p>Aqui estão os produtos que vendo ou acompanho:</p>
-  <ul>
-    <li><a href="https://meli.la/1ARyvHs" target="_blank">Link 1</a></li>
-    <li><a href="https://meli.la/1H3soZw" target="_blank">Link 2</a></li>
-    <li><a href="https://meli.la/2Bsdk6L" target="_blank">Link 3</a></li>
-    <li><a href="https://meli.la/2aQ17V7" target="_blank">Link 4</a></li>
-    <li><a href="https://meli.la/1ARyvHs" target="_blank">Link 5</a></li>
-    <li><a href="https://meli.la/32tEP48" target="_blank">Link 6</a></li>
-    <li><a href="https://meli.la/2YmbBpW" target="_blank">Link 7</a></li>
-    <li><a href="https://meli.la/1MV14rm" target="_blank">Link 8</a></li>
-    <li><a href="https://meli.la/31FKdYM" target="_blank">Link 9</a></li>
-    <li><a href="https://meli.la/1ZSiiD2" target="_blank">Link 10</a></li>
-    <li><a href="https://meli.la/1wzUxgU" target="_blank">Link 11</a></li>
-    <li><a href="https://meli.la/1py5f7Y" target="_blank">Link 12</a></li>
-    <li><a href="https://meli.la/2z4jAXs" target="_blank">Link 13</a></li>
-    <li><a href="https://meli.la/1xFZzik" target="_blank">Link 14</a></li>
-    <li><a href="https://meli.la/1yyJdPn" target="_blank">Link 15</a></li>
-    <li><a href="https://meli.la/1cEYEm9" target="_blank">Link 16</a></li>
-    <li><a href="https://meli.la/1u6mQJr" target="_blank">Link 17</a></li>
-    <li><a href="https://meli.la/2LxKmgk" target="_blank">Link 18</a></li>
-    <li><a href="https://meli.la/2Szsg77" target="_blank">Link 19</a></li>
-    <li><a href="https://meli.la/2aPVUZ1" target="_blank">Link 20</a></li>
-    <li><a href="https://meli.la/2KcSAYb" target="_blank">Link 21</a></li>
-    <li><a href="https://meli.la/1qWnbvj" target="_blank">Link 22</a></li>
-  </ul>
+
+    <header>
+        <h1>Vitrine Imobiliária</h1>
+        <p>Encontre o seu próximo imóvel disponível no QuintoAndar</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Imóvel 1 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 1</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/9aampsnn" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 2 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 2</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/icpwuhqe" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 3 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 3</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/ixcevoto" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 4 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 4</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/owoedfwh" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 5 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 5</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/v2xkdiln" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 6 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 6</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/isifekp3" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 7 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 7</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/uuduopvv" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 8 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 8</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/vzwp5g4o" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+        <!-- Imóvel 9 -->
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">Imóvel Selecionado 9</h2>
+                <p class="card-subtitle">📍 Confira os detalhes completos do imóvel</p>
+            </div>
+            <a href="http://quin.to/uhaarywg" class="btn-view" target="_blank" rel="noopener noreferrer">
+                🏠 Ver Imóvel no QuintoAndar
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Vitrine Imobiliária. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
